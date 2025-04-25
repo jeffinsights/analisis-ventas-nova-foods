@@ -34,9 +34,11 @@ Contenido:
 
 ## 📈 Visualización
 
+![Gráfico de crecimiento](grafico-crecimiento.png)
+
 ---
 
-## Conclusiones
+## 🧩 Conclusiones
 
 - El producto **NovaMix** mostró un crecimiento constante durante todos los trimestres.
 - Se detectó una caída en el producto **ChocoCream** en el segundo trimestre.
@@ -44,7 +46,8 @@ Contenido:
 
 ---
 
-## Autor
+## 💼 Autor
 
-**https://github.com/jeffinsights**  
+**[@jeffinsights](https://github.com/jeffinsights)**  
 *Data Analyst en formación | Python | Excel | RD 🇩🇴*
+Actualizando README.md
