@@ -1,53 +1,48 @@
-# 📊 Análisis de Crecimiento Trimestral – Nova Foods Inc.
 
-Este proyecto es un análisis exploratorio de ventas trimestrales realizado con Python y Excel.  
-Tiene como objetivo identificar el crecimiento por producto y entender el comportamiento de las ventas a lo largo del tiempo.
 
----
+ 📊 Sales Analysis – Portfolio Project
 
-## 🧠 Objetivo
+ 📁 Dataset
+`ventas_2024.xlsx`
 
-- Analizar las ventas trimestrales por producto.
-- Calcular variaciones porcentuales para detectar productos en crecimiento.
-- Visualizar el comportamiento de los productos con mayor y menor rendimiento.
+ 🧾 Project Overview
+This project performs exploratory data analysis on a sales dataset. The process includes data cleaning, calculation of growth metrics, and visualization of trends to understand monthly performance.
 
----
+ 🔍 Dataset Columns
+- `Month`: Period of each sale (e.g., January, February, etc.)
+- `Sales`: Total monthly revenue
 
-## 📁 Datos Utilizados
+ 🛠️ Tools Used
+- **Python** (Jupyter Notebook)
+- **pandas** for data manipulation
+- **matplotlib** for data visualization
 
-Archivo: `ventas_nova.xlsx`  
-Contenido:
-- Productos
-- Trimestres
-- Ventas (en unidades)
+ 📈 Analysis Performed
+- Loaded and explored Excel data
+- Grouped data by month and calculated total sales
+- Computed monthly growth rate using `.pct_change()`
+- Rounded percentages to 2 decimals
+- Created clean bar charts to visualize monthly trends
 
----
+ 🚀 Results
+A clean dataset showing monthly sales and percentage growth, along with clear visualizations using bar plots.
 
-## 🛠️ Herramientas Utilizadas
+ 🧠 Key Learnings
+- Efficient use of `.groupby()`, `.sum()`, `.pct_change()` and `.round()`
+- Data visualization with custom titles and axis labels
+- Clean and readable data structure for presentation
 
-- Python (Pandas, Matplotlib)
-- Jupyter Notebook
-- Excel
-- GitHub
-
----
-
-## 📈 Visualización
-
-![Gráfico de crecimiento](grafico-crecimiento.png)
-
----
-
-## 🧩 Conclusiones
-
-- El producto **NovaMix** mostró un crecimiento constante durante todos los trimestres.
-- Se detectó una caída en el producto **ChocoCream** en el segundo trimestre.
-- Se recomienda mantener el seguimiento mensual para ajustar estrategias comerciales.
+ 📂 Folder Contents
+- `ventas_2024.xlsx`: Raw dataset
+- `sales_analysis.ipynb`: Jupyter Notebook with code and visualizations
+- `README.md`: Project documentation
 
 ---
 
-## 💼 Autor
+*This project was built as part of my portfolio while training to become a Data Analyst. More projects coming soon.*
+
+💼 Autor
 
 **[@jeffinsights](https://github.com/jeffinsights)**  
 *Data Analyst en formación | Python | Excel | RD 🇩🇴*
-Actualizando README.md
+
